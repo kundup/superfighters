@@ -3,7 +3,8 @@ export class Ken {
     constructor(image){
         this.kenPicx = 0;
         this.kenSpeed = 1;
-        this.image = image
+        this.image = image;
+        
     }
 
     updateKen(canvasEl) {
